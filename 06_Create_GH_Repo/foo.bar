@@ -1,0 +1,6 @@
+│ Error: path must not contain '..' due to auth vulnerability issue
+│
+│   with github_repository_file.foo3,
+│   on main.tf line 40, in resource "github_repository_file" "foo3":
+│   40: resource "github_repository_file" "foo3" {
+│
